@@ -1,14 +1,43 @@
 /* THIS IS MY CSS FILE WHERE I WILL BE ADDING ALL MY STYLING */
 
+/* Google Fonts:
+Roboto & Satisfy
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Satisfy&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #deb7ff;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    line-height: 0;
+    padding-top: 30px;
+    color: #FFD700;
+    font-size: 4rem;
+    font-family: 'Satisfy', cursive;
+}
+
+.etchSketchBorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    padding-bottom: 90px;
+    border-radius: 50px;
+    background-color: red;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 672px;
+    width: 640px;
+    border: 1px solid #000;
 }
