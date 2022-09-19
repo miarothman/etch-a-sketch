@@ -1,3 +1,13 @@
-# etch-a-sketch
+## Etch-A-Sketch
 
-In this project, I will be building a browser version of something between a sketchpad and an Etch-A-Sketch. This project will help me learn more about DOM manipulation.
+This is a browser version of something between a sketchpad and an Etch-A-Sketch.
+
+Live Preview: https://miarothman.github.io/etch-a-sketch/
+
+Built Using:
+- HTML5
+- CSS3
+- Javascript
+
+Screenshot:   
+<img src="images/screenshot.png" width="800px"/>
